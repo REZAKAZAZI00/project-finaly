@@ -1,0 +1,257 @@
+a{
+    text-decoration: none;
+}
+.landing-bug-reporting__header{
+    position: relative;
+    top: -9px;
+    left: 9px;
+    
+    width: 1350px;
+    height: 358px;
+    background-image: url(https://www.digikala.com/static/files/37af70f4.png);
+    background-size: cover;
+}
+
+.page__content{
+    
+    
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 170px;
+    -ms-flex: 0 0 75%;
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 0;
+}
+.landing-bug-reporting__header> div.page__content{
+    margin: auto;
+    padding: 50px 0 40px;
+
+}
+.header__logo{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 0;
+    flex: 0 0 110px;
+    max-width: 110px;
+    max-height: 100%;
+    padding-right: 0;
+    margin-left: 24px;
+    margin-right: 8px;
+}
+.header__logo-img{
+    color: #fff;
+    height: 30px;
+    display: block;
+    text-align: right;
+    text-indent: -1000em;
+    background: url(https://www.digikala.com/static/files/bc60cf05.svg) no-repeat 50%;
+    background-size: contain;
+    transition: background-position .3s cubic-bezier(.17,.67,.49,.93);
+}
+.landing-bug-reporting__header-title{
+    color: #ef5661;
+    font-size: 24px;
+    font-size: 1.714rem;
+    line-height: 1.833;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 0;
+    flex: 0 0 155px;
+    max-height: 100%;
+    margin-top: 48px;
+
+}
+.landing-bug-reporting__header-text{
+    color: #fcfcfc;
+    position: relative;
+    width: 450px;
+    min-height: 1px;
+    padding-left: 0;
+    flex: 0 0 155px;
+    max-height: 100%;
+    margin-top: 23px;
+    max-width: 450px;
+}
+.header__logo-img--bug-report{
+    background-image: url(https://www.digikala.com/static/files/fced58e3.svg);
+    cursor: pointer;
+}
+
+
+
+
+.landing-bug-reporting__notice-bar{
+    padding: 8px 0;
+    width: 100%;
+    color: #fff;
+    background-color: #ef394e;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: -9px;
+    left: 9px;
+    width: 1350px;
+}
+/* selection */
+.landing-bug-reporting__selection{
+position: relative;
+width: 1350px;
+left: 9px;
+top: -9px;
+}
+
+.landing-bug-reporting__title{
+    color: #535353;
+    padding: 0px 40px;
+}
+.headline--bug-report{
+    color: #555;
+    padding: 0;
+}
+.headline{
+    margin: 26px 0 20px;
+    padding: 0 30px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+}
+.headline>span {
+    color: inherit;
+    font-size: 18px;
+    font-size: 1.286rem;
+    line-height: 31px;
+    font-weight: 700;
+}
+
+.landing-bug-reporting__selection-list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 724px;
+    margin: 10px auto;
+}
+.landing-bug-reporting__selection-list li {
+    border-radius: 8px;
+    border: 1px solid #c0c2c5;
+    background-color: #fff;
+    padding: 22px 60px 22px 42px;
+    position: relative;
+    margin: 12px;
+    cursor: pointer;
+    width: calc(100% - 125px);
+    color: #424750;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.landing-bug-reporting__selection-list li:before {
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.landing-bug-reporting__selection-list--digiclub:before {
+    content: "\E067\00FE0E";
+}
+.landing-bug-reporting__selection-list--return{
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 724px;
+    margin: 10px auto;
+}
+.landing-bug-reporting__selection-list--digiclub{
+    display: flex;
+
+
+}
+
+.landing-bug-reporting__selection-list a {
+    width: 50%;
+}
+
+/*  */
+.landing-bug-reporting__additional-info{
+    position: relative;
+    left: 9px;
+    top: -9px;
+    width: 1350px;
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    margin-top: 30px;
+
+
+}
+.landing-bug-reporting__additional-info-title{
+    font-size: 1.429rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+
+
+}
+
+
+/* footer*/
+.landing-bug-reporting__footer{
+    position: relative;
+    width: 1350px;
+    left: 9px;
+    top: -9px;
+    background-color: #000;
+    border-top: 2px solid #ef394e;
+    height: 175px;
+    padding: 38px 0 34px;
+}
+.landing-bug-reporting__footer-top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.landing-bug-reporting__social-container{
+    margin-top: 25px;
+    max-width: 502px;
+    color: #fff;
+    font-size: 12px;
+    font-size: .857rem;
+    line-height: 1.833;
+}
+.landing-bug-reporting__instagram{
+
+    background-image: url(https://www.digikala.com/static/files/8c778c7d.png);
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-left: 16px;
+    background-repeat: no-repeat;
+}
+.landing-bug-reporting__footer-title{
+    font-size: 14px; 
+    font-size: 1rem;
+    line-height: 1.571;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+}
+.landing-bug-reporting__footer-text{
+    margin-top: 25px;
+    max-width: 502px;
+    color: #fff;
+    font-size: 12px;
+    font-size: .857rem;
+    line-height: 1.833;
+}
