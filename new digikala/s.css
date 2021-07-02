@@ -1,0 +1,243 @@
+.container-p{
+    position: relative;
+    top: 175px;
+    background-color:fff;
+    width: 100%;
+    height: 700px;
+    padding-right: 14.9px;
+    margin-left: -9px;
+}
+.product__nav-container{
+    position: relative;
+    top: 20px;
+   
+    height: 30px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.product__nav-container-ul{
+    position: relative;
+    top: -20px;
+    display: flex;
+    
+   flex-flow: row-reverse;
+}
+.product__nav-container-ul li a{
+   color:  #6a6a6a;
+}
+.product__nav-container-ul li::after{
+    content: "/";
+    color: #cfcfcf;
+    letter-spacing: .4px;
+    font-size: 13px;
+    vertical-align: top;
+    margin-left: 5px;
+    padding-right: 5px;
+    font-weight: 400!important;
+}
+.product__ext-links{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 840px;
+    width: 181px;
+    top: -10px;
+}
+.product__ext-links a{
+    position: relative;
+    font-size: 11px;
+    font-size: .786rem;
+    line-height: 2;
+    color: #a1a3a8;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.product__ext-links-seller {
+    position: relative;
+    font-size: 18px;
+    font-size: 1.286rem;
+    line-height: 18px;
+    margin-right: 8px;
+}
+
+
+.data-product-id{
+    position:relative;
+    top: 20px;
+    background-color: coral;
+    width: 1350px;
+    height: 700px;
+}
+
+.product__info{
+    position: relative;
+    width: 853.33px;
+    height: 927px;
+    display: flex;
+    flex-direction: column;
+
+}
+.product__gallery{
+    position: sticky;
+    top: 110px;
+    margin-bottom: 45px;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: column;
+}
+.product__title-container{
+   
+    width: 100%;
+    display: flex;
+    padding: 7px 0;
+    position: relative;
+    align-items: center;
+    flex-flow: row-reverse;
+}
+
+.product__title-container--brand{
+   position: relative;
+    display: flex;
+    line-height: 21px;
+    flex-flow: row-reverse;
+    top: -10px;
+    
+}
+.product__title-container--brand-link{
+    
+    color: #0fabc6;
+    font-size: 12px;
+    display: flex;
+    
+}
+.product__title{
+    position: relative;
+    top: 15px;
+    left: 120px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1.143rem;
+    line-height: 28px;
+    color: #000;
+}
+.product__attributes{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: lightgreen;
+  height: 759;
+  width: 853.33px;
+  flex-flow: row-reverse;
+}
+.product__config{
+    position: relative;
+    width: 539.33px;
+    height: 759px;
+    background-color: lightslategray;
+    display: flex;
+  
+
+}
+.product__summary {
+position: relative;
+height: 759     ;
+width: 300px;
+left: 14px;
+background-color: mediumblue;
+}
+.product__title-en{
+    position: relative;
+    width: 539.33px;
+    height: 759px;
+    background-color: lightslategray;
+    display: flex;
+}
+.product__seller-info{
+  position: relative;
+  height: 423px;
+  width: 300px;
+  line-height: normal;
+  background-color: #f5f5f5;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+}
+.product__seller-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 206px;
+}
+.product__seller-counter{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 57px;
+    height: 25px;
+    font-weight: 500;
+    margin: 16px auto;
+    font-size: 14px;
+    flex-flow: row-reverse;
+    
+}
+.product__seller-overlay{
+    position: relative;
+    height: 75px;
+    width: 300px;
+    background-color: mediumorchid;
+
+}
+.product__seller-row-guarantee{
+    position: relative;
+    height: 52px;
+    width: 300px;
+    background-color: mistyrose;
+
+} 
+.product-info-box{
+    position: relative;
+    width: 300px;
+    height: 86px;
+    background-color: olive;
+}
+.product__seller-row-price{
+
+    position: relative;
+    width: 300px;
+    background-color: orange;
+    height: 55px;
+}
+.product__remaining-in-stock-parent{
+    position: relative;
+    width: 300px;
+    height: 20px;
+   
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.product__seller-row-add-to-cart{
+    position: relative;
+    border-color: red;
+    width: 300px;
+    height: 76px;
+}
+.product__seller-row-main{
+    position: relative;
+    right: 60px;
+    display: flex;
+    flex-flow:row-reverse ;
+    width: 100%;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 24px;
+}

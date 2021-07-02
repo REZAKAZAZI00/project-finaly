@@ -1,0 +1,450 @@
+html{
+    font-family: iranyekan;
+}
+body{
+    color: 666;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.main-container{
+    position: relative;
+    max-width: 90%;
+    height: 910px;
+    width: 864px;
+    margin: 0 auto;
+}
+.Header{
+    position: relative;
+
+    width: 864px;
+    height: 121px;
+
+
+}
+.Header-Menu{
+
+    position: relative;
+    width: 864px;
+    height: 73px;
+    padding: 16px 24px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    min-height: 73px;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    width: 198px;
+}
+.Header-Menu-login-button{
+    height: 30px;
+    padding: 0 2px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    
+    border: 1px solid #6e798d;
+    background:transparent;
+    color: #6e798d!important;
+    border-radius: 12px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.Header-Menu-login-button-span{
+    position: relative;
+    top: -8px;
+}
+.icon.icon-profile {
+    background-image: url(https://express.mydigipay.com/person.9975ddef7188ad426136.svg);
+}
+.Header-Menu-login{
+    position: relative;
+    width: 158px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    font-size: .8571428571rem;
+    color: #6e798d!important;
+    height: auto;
+    padding: 3px 12px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    background: transparent no-repeat 0 0/100%;
+    display: inline-block;
+    cursor: pointer;
+}
+.icon-exit{
+     background-image: url(https://express.mydigipay.com/exit.420a51dbe16746c53f2b.svg);
+}
+.digipay-logo{
+    background: url(https://express.mydigipay.com/digipay-logo.7b7480f7f9f54bb3b5a5.svg) no-repeat 0 0/100%;
+    width: 77px;
+    height: 40px;
+}
+
+/* home */
+.home{
+
+    position: relative;
+    height: 900.45px;
+    width: 864;
+   
+}
+.home-layout{
+    position: relative;
+    height: 591px;
+    width: 864px;
+    display: flex;
+}
+.banners{
+    position: relative;
+    width: 864px;
+    height: 261.45px;
+    top: 10px;
+}
+.wide{
+    position: relative;
+    width: 476px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+
+}
+.narrow{
+    position: relative;
+  
+    width: 300;
+    margin-left: 88px;
+    flex: 300px 0 0;
+}
+.home-wide-Header{
+    position: relative;
+    height: 84px;
+    width: 474px;
+    color: #666;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 1.7142857143rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+.home-wide-Header-rocket-icon{
+    position: relative;
+    left: 8px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://express.mydigipay.com/rocket.e2949c524313f59e7944.svg) no-repeat 0 0/100%;
+}
+
+.home-wide-body{
+position: relative;
+width: 474px;
+height: 290px;
+
+}
+.wide-body-cell-number-field{
+position: relative;
+    width: 426px;
+    height: 88px;
+    
+}
+.input-wrapper{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    margin-left: 12px;
+}
+.input-wrapper.input{
+    border-radius: 16px;
+    border: 1px solid #191919;
+    width: 60%;
+    height: 48px;
+    color: #191919;
+    font-size: 1.1428571429rem;
+    padding: 0 14px;
+}
+.carrier-select{
+    position: relative;
+    width: 134px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.wide-body-switch{
+    
+    position: relative;
+    height: 35px;
+    width: 426px;
+    display: flex;
+    align-items: center;
+   
+}
+.carrier {
+   position: relative;
+   width: 42px;
+   height: 42px;
+    border-radius: 50%;
+    background: no-repeat 0 0/100%;
+    border: 1px solid transparent;
+    border-radius: 12px;
+
+}
+.is-mci-icon{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: no-repeat 0 0/100%;
+}
+
+.wide-body-cell-number-field-icon{
+    background: url(https://express.mydigipay.com/warning-icon.95b2b87aa1ca04f71016.svg) no-repeat 0 0/100%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+}
+.wide-body-cell-number-field-input{
+    position: relative;
+    height: 48px;
+    width: 426px;
+}
+.wide-body-switch{
+    position: relative;
+    width: 426px;
+    height: 35px;
+}
+.label{
+    font-size: .8571428571rem;
+    color: #6e798d;
+    flex: 0 1 auto;
+    margin-left: 24px;
+}
+.animated-switch{
+    position: relative;
+    width: 331px;
+    height: 35px;
+  
+}
+
+.switch .switch-options{
+    display: flex;
+    justify-content: stretch;
+    height: 100%;
+    position: relative;
+}
+.option {
+    line-height: 32px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #191919;
+    display: inline-block;
+    padding: 0px 56px;
+}
+.selected {
+    font-weight: 500;
+    color: #0040ff;
+    border: 1px solid #0040ff;
+
+}
+.amount-input{
+    position: relative;
+    top: 35px;
+    width: 426px;
+    height: 56px;
+   
+}
+.ui-amount-input{
+    height: 56px;
+    border-radius: 16px;
+    border: 1px solid #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr
+}
+.unit{
+    font-size: 1.2857142857rem;
+    font-weight: 300;
+}
+
+.hr{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+.ui-amount-input input.has-placeholder {
+    min-width: 100px;
+    font-size: 1.2857142857rem;
+    font-weight: 300;
+}
+.ui-amount-input input {
+    height: 100%;
+    border: none;
+    width: auto;
+    padding: 0;
+    min-width: 10px;
+    font-size: 2.2857142857rem;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: left;
+    direction: ltr;
+    box-shadow: none;
+}
+
+
+
+
+
+.home-wide-footer{
+position: absolute;
+width: 474px;
+height: 97px;
+border-top: 1px solid #e6e6e6;
+    display: flex;
+
+}
+
+.home-wide-footer-button{
+    position: relative;
+    width: 426px;
+    height: 48px;
+}
+.home-wide-footer-button-outline-steel{
+    position: relative;
+    top: 25px;
+    right: 20px;
+    width: 175.7px;
+    height: 48px;
+    display: inline-block;
+
+}
+.home-wide-footer-button-outline-pay{
+    position: relative;
+    top: 25px;
+    right: 30px;
+    width: 225.7px;
+    height: 48px;
+    display: inline-block;
+
+}
+
+.button.outline-steel{
+    background: transparent;
+    color: #2c3544;
+    border-color: #6e798d;
+}
+.button.default{
+    background: #e6e6e6;
+    border-color: #e6e6e6;
+    color: #b2b2b2;
+}
+.button {
+    height: 48px;
+    padding: 0 12px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #0040ff;
+    background: #0040ff;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.narrow-baner{
+
+    position: relative;
+    width: 300px;
+    height: 140px;
+}
+.narrow-service-icons{
+    position: relative;
+    width: 300PX;
+    height: 328PX;
+   
+    margin: 9px 0 0;
+ 
+    border-top: 1px solid #e6e6e6;
+}
+.narrow-service-icons-title{
+    font-size: 1.2857142857rem;
+    font-weight: 400;
+    margin-bottom: 1.6666666667em;
+}
+.narrow-service-icon-grid{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    display: block;
+    width: 40px;
+    position: relative;
+    top: 10px;
+}
+.narrow-service-icon-grid-icon{
+    
+    font-size: 80px;
+    width: 1em;
+    height: 1em;
+    margin: 0 auto;
+    border: 1px solid #d3dbe1;
+    border-radius: .3em;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.narrow-service-icon-grid-icon-text{
+    display: inline-block;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    margin: 10px 0 0;
+    top: 35px;
+}

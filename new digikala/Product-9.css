@@ -1,0 +1,287 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*  header */
+
+
+
+.Header{
+    position:absolute;
+    right: 0px;
+    top: -8px;
+    width: 1368px;
+    height: 170px;
+
+}
+.Gife-DisCount{
+ 
+  width: 1368px;
+  height: 65px;
+}
+.Gife-DisCount-img{
+    height: 65px;
+    width: 1367px;
+    background-position: 50%;
+}
+.Header-Services{
+    background-color: #fff;
+    width: 1368px;
+  height: 65px;
+}
+.Header-Menu{
+    background-color: fff;
+    width: 1368px;
+  height: 60px;
+  box-shadow: 0 0.1px 0px #888888;
+}
+.Header-Services-Logo{
+    position: absolute;
+    left: 1225px;
+    top: 72px;
+    background-color:fff;
+    height: 42px;
+    width: 125px;
+}
+.Header-Services-Search{
+    position: absolute;
+    top: 72px;
+    left: 620px;
+    background-color: #f0f0f1;
+    border: none;
+    border-radius: 10px;
+    width: 570px;
+    height: 42px;
+}
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+.Header-Services-Image{
+    position: absolute;
+    top: 72px;
+    left: 460px;
+    background-color: fff;
+    width: 150px;
+    height: 42px;
+}
+.Header-Services-Login{
+    position: absolute;
+    top: 72px;
+    left: 90px;
+    background-color: fff;
+   
+    height: 42px;
+}
+.Header-Services-Login-a{
+    
+    font-size: .857rem;
+    line-height: 1.833;
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: #616161;
+}
+.Header-Services-Cart{
+    position: absolute;
+    top: 72px;
+    left: 30px;
+    background-color: fff;
+    width: 55px;
+    height: 42px;
+    box-shadow: 1px 0px 0px #888888;
+    
+}
+.Header-Services-Logo-Url{
+    background-image: url("https://www.digikala.com/static/files/bc60cf05.svg");
+    position: relative;
+    width: 115px;
+    left: 3px;
+    top: 8px;
+    display: block;
+    height: 30px;
+
+}
+.Header-Services-Search-Felid{
+    position:fixed;
+   
+    
+}
+.Header-Services-Search-Felid-Input{
+    position:relative;
+    height: 42px;
+    width: 510px;
+    padding: 0 0px 0 0;
+    font-size: .857rem;
+
+    background-color: #f0f0f1;
+    text-align: right;
+    border: none;
+    border-radius: 8px;
+}
+.Header-Services-Image-Img{
+    position: relative;
+    top: 4px;
+}
+.Header-Services-Login-Icon{
+    position:relative;
+    top: 5px;
+    right: -5px;
+}
+.Header-Services-Cart-Icon{
+    position:relative;
+    top: -1px;
+    right: -7px;
+}
+.Header-Services-Search-Icon{
+    position: relative;
+    left: 270px;
+    top: 10px;
+    background: url("https://img.icons8.com/fluent-systems-regular/20/000000/search--v1.png") top left     no-repeat;
+height:38px;
+padding-left:40px;
+
+
+float: right;
+}
+
+
+
+/*  header */
+.Index-All{
+    position: relative;
+    top: 155px;
+    width: 1050px;
+   
+    left: 10px;
+}
+.Product-Item{
+    position: relative;
+    height: 435px;
+    width: 1050px;
+
+}
+.Product-Item-3{
+    position: relative;
+    top: -15px;
+}
+.Product-Item-1{
+    position: relative;
+  margin: 0 -7px 0 0;
+    width: 262px;
+    display:inline-block;
+    background-color: fff;
+    height: 435px;
+    
+    border: 1px solid #e4e4e4;
+
+}
+.Product-Item-1-Img {
+    position: relative;
+    width: 261.9px;
+    height: 240px;
+    background-color: fff;
+}
+.Product-Item-1-Img img{
+    position: absolute;
+    width: 175px;
+    height: 190px;
+    right: 42px;
+    top: 20px;
+
+}
+.Product-Item-1-Caption{
+
+    position: relative;
+    height: 195px;
+    width: 262px;
+    
+}
+.Product-Item-1-Caption a{
+    position: absolute;
+     right: 8px;
+     font-size: .857rem;
+     line-height: 22px;
+     text-decoration: none;
+     color: #535353;
+}
+.Product-Item-1-Caption-Star{
+    position:absolute;
+    top: 65px;
+    right: 10px;
+    width: 240px;
+    height: 20px;
+    background-color: fff;
+}
+.Product-Item-1-Caption-Star p{
+    position:absolute;
+    top: -6px;
+    right: 175px;
+    font-size: 10px;
+    color: #c0c2c5;
+}
+.Product-Item-1-Caption-Price{
+    position: absolute;
+    height: 30px;
+    left: 10px;
+    width: 160px;
+    background-color: fff;
+    top: 135px;
+}
+.Product-Item-1-Caption-Price-H6{
+
+    position: absolute;
+    top: -27px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.Product-Item-1-Caption-Price-H5{
+    position: absolute;
+    font-weight: 700;
+    top: -29px;
+    left: 39px;
+    font-size: 1.229rem;
+    line-height: 1.1;
+
+}
+.Product-Item-1-Caption-Discount{
+    position: absolute;
+    background-color: fff;
+    top: 105px;
+    left: 10px;
+    width: 150px;
+    height: 30px;
+}
+.Product-Item-1-Caption-Discount a{
+    position: relative;
+    left: 9px;
+    top: 5px;
+    background-color: #fb3449;
+    border-radius: 20px;
+    font-weight: 700;
+    border: none;
+    
+    padding: 1px 9px;
+    color: fff;
+
+}
+.Product-Item-1-Caption-Discount del{
+    position: relative;
+    font-weight: 400;
+    top: 7px;
+    left: 8px;
+    font-size: 15px;
+}

@@ -1,0 +1,45 @@
+
+/*          login             login    */
+.login-1{
+    position: relative;
+    top: 45px;
+    left: 350px;
+    height: 440px;
+    border: 1px solid #ededed;
+    }
+    .logo-img{
+        position: relative;
+        top: 30px;
+        width: 50%;
+    }
+    .i-email{
+        position: relative;
+        left: 15px;
+        top: 40px;
+        border: 1px solid #e0e0e2;
+        width: 100%;
+    }
+    .s-name{
+        position: relative;
+        top: 55px;
+    
+    }
+    .l-name{
+        position: relative;
+        top: 30px;
+    }
+    .p-name{
+        position: relative;
+        top: 95px;
+        text-align: center;
+        color: #62666d;
+        font-size: 10px;
+        font-size: .714rem;
+        line-height: 25px;
+    }
+    
+    
+     /*  Page  Product-items-1  */ 
+    
+    
+    
